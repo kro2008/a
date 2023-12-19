@@ -1,4 +1,4 @@
-mport turtle as t  
+import turtle as t  
 from turtle import *
 import random as r
 import time
@@ -68,7 +68,7 @@ for i in range(200):
     backward(b)
 
 t.color("dark red", "red") 
-t.write("Merry Christmas Hồng  ", align="center", font=("Comic Sans MS", 40, "bold"))  
+t.write("Merry Christmas ", align="center", font=("Comic Sans MS", 40, "bold"))  
 
 def drawsnow():  
     t.ht() 
